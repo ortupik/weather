@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+Here's the revised README with the added information about the live web app:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+# Weather Dashboard Application
 
-In the project directory, you can run:
+The Weather Dashboard is a web application that allows users to view weather information for various locations. Users can see details such as temperature, humidity, wind speed, and weather conditions for a selected location.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- View current weather information for a selected location.
+- Refresh weather data.
+- Handle error states gracefully.
+- Responsive design for seamless usage on desktop and mobile devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **React**: Frontend framework for building user interfaces.
+- **Material-UI**: React component library for styling and UI components.
+- **Jest**: Testing framework for unit and integration testing.
+- **fetch**: API for making HTTP requests to retrieve weather data.
+- **Webpack**: Module bundler for bundling JavaScript files for usage in a browser.
+- **Babel**: JavaScript compiler for converting ES6+ code into backward-compatible versions of JavaScript.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. **Clone the repository**:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/ortupik/weather.git
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Navigate to the project directory**:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   cd weather-dashboard
+   ```
 
-### `npm run eject`
+3. **Install dependencies**:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Set up environment variables**:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   Before running the application, ensure you have an API key for accessing weather data. Set the API key as an environment variable named `REACT_APP_API_KEY`.
 
-## Learn More
+   ```bash
+   export REACT_APP_API_KEY=your_api_key_here
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. **Run the application**:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   npm start
+   ```
 
-### Code Splitting
+3. **Access the application**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   Open your web browser and navigate to `http://localhost:3000` to view the Weather Dashboard application.
 
-### Analyzing the Bundle Size
+4. **Live Web App**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   You can also access the live web app at https://nairobi-weather.netlify.app
 
-### Making a Progressive Web App
+## Testing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The application includes unit tests to ensure its functionality. To run the tests, use the following command:
 
-### Advanced Configuration
+```bash
+npm test
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contributing
 
-### Deployment
+Contributions are welcome! If you find any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## License
 
-### `npm run build` fails to minify
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
