@@ -1,4 +1,3 @@
-Here's the revised README with the added information about the live web app:
 
 ---
 
