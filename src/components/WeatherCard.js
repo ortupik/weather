@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useEffect, useContext } from 'react';
 import {
   Typography, Grid, Box, Stack, IconButton,
 } from '@mui/material';
@@ -21,6 +21,10 @@ const WeatherCard = () => {
 
   const { getText } = useLanguage();
 
+  useEffect(() => {
+    fetchWeather();
+  }, []);
+
   const getWeatherIcon = (condition) => {
     switch (condition) {
       case 'Clouds':
@@ -41,7 +45,7 @@ const WeatherCard = () => {
       console.error('Error refreshing weather:', err);
     }
   };
-  
+
   return (
     <Box className="weather-card">
       <ErrorDisplay error={error} loading={loading} />
