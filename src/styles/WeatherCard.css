@@ -1,0 +1,98 @@
+.weather-card {
+  border-radius: 16px;
+  padding: 24px;
+  background: linear-gradient(to right, #ffffff 50%, rgba(241, 224, 190, 0.507));
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.city-name {
+  font-weight: bold;
+  color: #000000;
+}
+
+.weather-description {
+  color: #666;
+}
+
+.weather-temp {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: #008080;
+}
+
+.temp-icon {
+  margin-right: 8px;
+  color: orange;
+}
+
+.weather-icon-container {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
+}
+.weather-icon-container .MuiSvgIcon-root {
+  font-size: 80px;
+}
+.weather-icon {
+  font-size: 64px;
+  padding-right: 8px;
+}
+
+.weather-icon.Clouds {
+  color: #add8e6;
+}
+
+.weather-icon.Rain {
+  color: #1976d2;
+}
+
+.weather-icon.Clear {
+  color: #ffa500;
+}
+
+.weather-details {
+  color: #666;
+  display: flex;
+  align-items: center;
+}
+
+.details-icon {
+  margin-right: 8px;
+  padding-right: 2px;
+}
+
+.details-icon.humidity {
+  color: #add8e6;
+}
+
+.details-icon.Rain {
+  color: #1976d2;
+}
+
+.details-icon.wind {
+  color: #ffa500;
+}
+
+@media (max-width: 600px) {
+  .weather-card {
+    width: 100%;
+  }
+
+  .weather-icon-container .weather-icon {
+    font-size: 48px;
+  }
+}
+
+.refresh-button {
+  background-color: teal;
+  color: teal;
+}
+
+.refresh-button .MuiSvgIcon-root {
+  color: teal;
+  padding-right: 8px;
+}

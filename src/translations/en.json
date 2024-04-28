@@ -1,0 +1,11 @@
+{
+  "appName": "Weather Forecast",
+  "language": "English",
+  "city": "City",
+  "temperature": "Temperature",
+  "feelsLike": "Feels Like",
+  "weatherDescription": "Partly Cloudy",
+  "precipitation": "Precipitation",
+  "humidity": "Humidity",
+  "wind": "Wind"
+}
