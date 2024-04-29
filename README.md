@@ -45,10 +45,10 @@ The Weather Dashboard is a web application that allows users to view weather inf
 
 1. **Set up environment variables**:
 
-   Before running the application, ensure you have an API key for accessing weather data. Set the API key as an environment variable named `REACT_APP_API_KEY`.
+   Before running the application, ensure you have an API key for accessing weather data. Set the API key as an environment variable named `OPEN_WEATHER_API_KEY`.
 
    ```bash
-   export REACT_APP_API_KEY=your_api_key_here
+   export OPEN_WEATHER_API_KEY=your_api_key_here
    ```
 
 2. **Run the application**:
